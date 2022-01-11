@@ -1,0 +1,10 @@
+[versions]
+jUnit5 = "5.7.1"
+mockk = "1.10.5"
+
+[libraries]
+mockk = { module = "io.mockk:mockk", version.ref = "mockk"}
+junitBom = { module = "org.junit:junit-bom", version.ref = "jUnit5"}
+jupiterModule = { module = "org.junit.jupiter:junit-jupiter" }
+
+[bundles]

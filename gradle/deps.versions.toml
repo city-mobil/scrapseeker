@@ -1,0 +1,7 @@
+[versions]
+kotlin = "1.5.31"
+
+[libraries]
+kotlinStdLibJdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin"}
+
+[bundles]
